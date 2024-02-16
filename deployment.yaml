@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: sonan-deploy
 spec:
   replicas: 2
   selector:
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - image: cloudsihmar/sandeep:19
-        name: pet
+        name: sonam
